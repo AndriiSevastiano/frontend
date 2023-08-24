@@ -105,7 +105,7 @@ export default function Home() {
                   </div>
                   <div>
                       <label htmlFor="phone number" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">phone number</label>
-                      <MyInput placeholder='380681728527' value={user.phoneNumber}  props={{ onchange: (value:string) => setUser({ ...user, phoneNumber: value }) }}/>
+                      <MyInput placeholder='380(68)1234567' value={user.phoneNumber}  props={{ onchange: (value:string) => setUser({ ...user, phoneNumber: value }) }}/>
                   </div>
                   <div>
                       <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
